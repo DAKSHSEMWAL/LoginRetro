@@ -69,7 +69,7 @@ A Simple App To login Using Retrofit
         "message": "Details Not Matched"
     }
     
- # Json Object if both fiels are missing
+ # Json Object if both field are missing
 
     {
 
@@ -84,3 +84,18 @@ A Simple App To login Using Retrofit
 
         "message": "Details Not Matched"
     }
+# Json Object if Password is wrong
+    {
+ 
+        "status": false,
+    
+         "message": "Password Not Found"
+    }   
+    
+ # Json Object if Email is wrong
+    {
+ 
+        "status": false,
+    
+         "message": "Email Not Found"
+    }  
