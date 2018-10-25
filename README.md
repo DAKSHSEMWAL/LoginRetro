@@ -68,3 +68,19 @@ A Simple App To login Using Retrofit
 
         "message": "Details Not Matched"
     }
+    
+ # Json Object if both fiels are missing
+
+    {
+
+        "error": 
+            {
+                
+                "email": "The password field is required."
+            
+            },
+        
+        "status": false,
+
+        "message": "Details Not Matched"
+    }
