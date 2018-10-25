@@ -1,23 +1,16 @@
 package com.example.daksh.testlogin;
 
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.PasswordTransformationMethod;
-import android.util.Log;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
-
 import com.squareup.otto.Bus;
-
 import okhttp3.OkHttpClient;
-import okhttp3.RequestBody;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -26,11 +19,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LoginActivity extends AppCompatActivity {
-
-    private Communicator communicator;
     private EditText usernameET, passwordET;
     private String username, password;
-    private Button loginButtonPost, loginButtonGet;
+    private Button loginButtonPost;
     private final static String TAG = "MainActivity";
     public static Bus bus;
     String message, error;
@@ -39,8 +30,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        communicator = new Communicator();
 
         usernameET = (EditText) findViewById(R.id.usernameInput);
         passwordET = (EditText) findViewById(R.id.passwordInput);
