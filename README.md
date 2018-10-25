@@ -5,7 +5,7 @@ A Simple App To login Using Retrofit
 
 
 #JSON Object format
-{
+"{
     "data": {
         "email": "client@gmail.com",
         "name": "Client",
@@ -19,4 +19,4 @@ A Simple App To login Using Retrofit
     },
     "status": true,
     "message": "Details Matched"
-}
+}"
