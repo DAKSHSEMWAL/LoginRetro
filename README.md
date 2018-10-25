@@ -2,7 +2,8 @@
 
 A Simple App To login Using Retrofit
 
-* Add Base URL of your api
+* In LoginActivity.java add your BASE_URL
+* public static final String BASE_URL = YOUR_URL;
 
 
 # My JSON Object format on sucessfull login
