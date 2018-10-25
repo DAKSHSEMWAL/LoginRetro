@@ -2,7 +2,7 @@
 
 A Simple App To login Using Retrofit
 
-
+*Add Base URL of your api
 
 
 # My JSON Object format on sucessfull login
