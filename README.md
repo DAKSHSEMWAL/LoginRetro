@@ -4,7 +4,8 @@ A Simple App To login Using Retrofit
 
 
 
-#JSON Object format
+#My JSON Object format on sucessfull login
+
 {
 
     "data": {
@@ -34,3 +35,18 @@ A Simple App To login Using Retrofit
            "message": "Details Matched"
    
     }"
+#Json Object if email is missing
+
+    {
+
+        "error": 
+            {
+                
+                "email": "The email field is required."
+            
+            },
+        
+        "status": false,
+
+        "message": "Details Not Matched"
+    }
