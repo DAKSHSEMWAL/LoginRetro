@@ -1,10 +1,10 @@
-# LoginRetro
+#LoginRetro
 A Simple App To login Using Retrofit
 
 
 
 
-#My JSON Object format on sucessfull login
+# My JSON Object format on sucessfull login
 
 {
 
@@ -35,7 +35,8 @@ A Simple App To login Using Retrofit
            "message": "Details Matched"
    
     }"
-#Json Object if email is missing
+    
+# Json Object if email is missing
 
     {
 
