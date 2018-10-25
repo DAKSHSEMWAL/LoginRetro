@@ -9,27 +9,28 @@ A Simple App To login Using Retrofit
 
     "data": {
     
-        "email": "client@gmail.com",
+             "email": "client@gmail.com",
     
-    "name": "Client",
+             "name": "Client",
     
-    "phone": "",
+             "phone": "",
     
-    "location": "Kuwait",
+             "location": "Kuwait",
     
-    "city": "Kuwait",
+             "city": "Kuwait",
     
-    "profile": "1534923913-amlate.png",
+             "profile": "1534923913-amlate.png",
    
-   "token": "8db45ded412b3a9b6f30715bd7f96b0a",
+             "token": "8db45ded412b3a9b6f30715bd7f96b0a",
    
-   "id": "6",
+             "id": "6",
    
-   "business_name": ""
+              "business_name": ""
    
-   },
+            },
+
+           "status": true,
+
+           "message": "Details Matched"
    
-   "status": true,
-   
-   "message": "Details Matched"
 }"
